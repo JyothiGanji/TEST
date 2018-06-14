@@ -123,23 +123,32 @@ var Translations = {
             ]
         },
         {
-            "label": "Your Account",
+            "label": "Appointment",
             "states": [
                 {
-                    "cardId": "77a834f0",
-                    "width": 20
+                    "cardId": "490dacc5",
+                    "width": 15
                 },
                 {
-                    "cardId": "c23a68c9",
-                    "width": 20
+                    "cardId": "36a570a7",
+                    "width": 15
                 }
             ]
         },
         {
-            "label": "Thank You",
+            "label": "Not Intersted",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "4076e2d7",
+                    "width": 40
+                }
+            ]
+        },
+        {
+            "label": "Thanks",
+            "states": [
+                {
+                    "cardId": "End",
                     "width": 40
                 }
             ]
