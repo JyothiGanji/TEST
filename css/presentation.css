@@ -351,7 +351,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color:  #fff;
+    color: #F4F1F0;
     background-color:#6191A7;
     font-size: 20px;
 }
@@ -362,7 +362,7 @@ border-bottom-right-radius: 6%;
 
 .timeline__controls {
     background-color:#6191A7;
-    border-color: #dbdbdb;
+    border-color: #F4F1F0;
 }
 
 .timeline__button {
@@ -453,7 +453,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--skip-forward {
-    margin-left: 10px;
+    margin-left: 8px;
     background-position-x: calc((100%/26) * 3);
     --timeline-bgX: calc((100%/26) * 3);
 }
@@ -596,7 +596,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-volume__ball {
-    background-color:#F0F4F4;
+    background-color:#9b9b9b;
     border-radius: 10px;
 }
 
@@ -673,7 +673,7 @@ border-bottom-right-radius: 6%;
 .timeline__settings-item:hover .timeline__settings-text,
 .timeline__settings-item:active .timeline__settings-text,
 .focusable.timeline__settings-item:focus .timeline__settings-text {
-    color: #fff;
+    color:#F4F1F0;
 }
 
 .timeline__settings-icon--left {
@@ -898,7 +898,7 @@ border-bottom-right-radius: 6%;
 
     .fullscreen .cta--side .cta__label {
         line-height: 40px;
-        font-size: 80px;
+        font-size:18px;
     }
 
     .cta__icon {
@@ -948,9 +948,12 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward,
+    .timeline__button--skip-forward {
+        width: 57px;
+    }
+
     .timeline__button--play-pause {
-        width: 50px;
+        width: 51px;
     }
 
     .timeline__button--settings,
@@ -1042,9 +1045,6 @@ border-bottom-right-radius: 6%;
         font-size: 16px;
     }
 
-    .cta--side {
-        height: 360px;
-    }
 
     .cta__icon {
         margin-bottom: 6px;
@@ -1057,7 +1057,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 12px;
+        font-size: 6px;
     }
 
     .player__splash-image {
@@ -1102,9 +1102,12 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward,
+    .timeline__button--skip-forward {
+        width: 38px;
+    }
+
     .timeline__button--play-pause {
-        width: 30px;
+        width: 34px;
     }
 
     .timeline__button-icon--skip-back {
@@ -1325,7 +1328,7 @@ border-bottom-right-radius: 6%;
 /** Very small mobile devices **/
 @media screen and (max-height: 260px) and (orientation: landscape) {
     .cta__icon {
-        margin-bottom: 2px;
+        margin-bottom: 3px;
     }
 }
 
