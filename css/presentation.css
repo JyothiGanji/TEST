@@ -177,8 +177,8 @@
 }
 
 .cta__button {
-    color:#F4F1F0;
-    background-color: #F0F1F4;
+    color:#f0f0f4;
+    background-color: #F4F1F0;
     border: 0;
     font-family: Arial;
     font-size: 28px;
@@ -347,7 +347,7 @@
 }
 
 .timeline {
-    color: #fff;
+    color: #F0F1F4;
     background-color: #F4F1F0;
     font-size: 20px;
 }
