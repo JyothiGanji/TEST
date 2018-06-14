@@ -49,7 +49,7 @@
 }
 
 .header {
-    color: #fff;
+    color:#F4F1F0;
     text-align: center;
 }
 
@@ -177,8 +177,8 @@
 }
 
 .cta__button {
-    color: #fff;
-    background-color: #0072b8;
+    color:#F4F1F0;
+    background-color: #F0F1F4;
     border: 0;
     font-family: Arial;
     font-size: 28px;
@@ -348,7 +348,7 @@
 
 .timeline {
     color: #fff;
-    background-color: #1f1f1f;
+    background-color: #F4F1F0;
     font-size: 20px;
 }
 
@@ -357,12 +357,12 @@
 }
 
 .timeline__controls {
-    background-color: #2e2e2e;
+    background-color:  #F4F1F0;
     border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color: #2e2e2e;
+    background-color: #F4F1F0;
     cursor: pointer;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .timeline-progress-hover {
-    background-color: #00436e;
+    background-color: #0B3D6C;
 }
 
 .timeline-progress {
