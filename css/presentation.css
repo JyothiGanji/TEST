@@ -351,8 +351,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color: #004B8F;
-    background-color:#f4f0f0;
+    color:  #fff;
+    background-color:#6191A7;
     font-size: 20px;
 }
 
@@ -361,12 +361,12 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__controls {
-    background-color:#004B8F;
+    background-color:#6191A7;
     border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color:#f4f0f0;
+    background-color:#6191A7;
     cursor: pointer;
 }
 
