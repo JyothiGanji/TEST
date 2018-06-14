@@ -35,12 +35,12 @@
 
 /** Main Styling (for 1080p) **/
 .body {
-    background-color: #f0f0f0;
+   background-color:#F0F2F4;
     font-family: "OpenSans_Regular", Arial;
 }
 
 .top-wrapper {
-    background: #bababa url("../images/background_tile.png");
+    background: #F4F1F0 url("../images/background_tile.png");
 }
 
 .fullscreen .top-wrapper {
@@ -352,7 +352,7 @@ border-bottom-right-radius: 6%;
 
 .timeline {
     color: #004B8F;
-    background-color:#004B8F;
+    background-color:#f4f0f0;
     font-size: 20px;
 }
 
@@ -366,7 +366,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button {
-    background-color:#004B8F;
+    background-color:#f4f0f0;
     cursor: pointer;
 }
 
