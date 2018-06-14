@@ -35,12 +35,12 @@
 
 /** Main Styling (for 1080p) **/
 .body {
-   background-color:#F0F2F4;
+    background-color: #f0f0f0;
     font-family: "OpenSans_Regular", Arial;
 }
 
 .top-wrapper {
-    background: #F4F1F0 url("../images/background_tile.png");
+    background: #717171 url("../images/background_tile.png");
 }
 
 .fullscreen .top-wrapper {
@@ -59,7 +59,7 @@
 
 .header__logo {
     width:100%;
-    height:75px;
+    height:70px;
     margin: 10px 0 0;
     background: url("../images/logo.png") no-repeat;
     background-position: center;
@@ -177,32 +177,31 @@
 }
 
 .cta__button {
-    color:#EE1A22;
-    background-color: #004B8F;
+    color: #fff;
+    background-color: #0072b8;
     border: 0;
     font-family: Arial;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-    border-radius:1px solid #938e8e;
+    border-radius: 0;
 }
 
-.cta__button--button-1{
-border-top-left-radius: 6%;
-border-top-right-radius: 6%;
+.cta--side.cta--5 .cta__button {
+    height: calc(20% - 1px);
+    margin-bottom: 1px;
 }
 
-.cta__button--button-5{
-border-bottom-left-radius: 6%;
-border-bottom-right-radius: 6%;
+.cta--side.cta--5 .cta__button:last-child {
+    height:20%;
+    margin-bottom: 0;
 }
 
 .cta__button:hover,
 .cta__button:active,
 .focusable.cta__button:focus {
-    background-color: #004B8F ;
+    background-color: #00436e;
 }
-
 
 .fullscreen .cta--side .cta__button {
     width: 230%;
@@ -283,8 +282,8 @@ border-bottom-right-radius: 6%;
 }
 
 .player__splash {
-    opacity: 0.5;
-    background-color:#000;
+    opacity: 0.7;
+    background-color: #0f0f0f;
     cursor: pointer;
 }
 
@@ -319,14 +318,11 @@ border-bottom-right-radius: 6%;
 }
 
 .promo__item {
-    background-color:#F0F4F4;
-     border-radius: 3px 3px 3px 3px;
+    background-color: #fff;
 }
-.promo__item:hover {
-    background-color: #07070763;
-}
+
 .promo--side .promo__image {
-    background-size: 100% 100%;
+    background-size: 200% 100%;
 }
 
 .promo--side .promo__link:hover .promo__image,
@@ -336,11 +332,11 @@ border-bottom-right-radius: 6%;
 }
 
 .promo--bottom .promo__image {
-    background-size: 100% 100%;
+    background-size: 100% 200%;
 }
 
 .promo__link {
-    color: #000;
+    color: #0f0f0f;
     text-decoration: none;
 }
 
@@ -351,22 +347,22 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color: #F4F1F0;
-    background-color:#6191A7;
+    color: #fff;
+    background-color: #1f1f1f;
     font-size: 20px;
 }
 
 .timeline__cover {
-    background:#004B8F;
+    background: #00436e;
 }
 
 .timeline__controls {
-    background-color:#6191A7;
-    border-color: #F4F1F0;
+    background-color: #2e2e2e;
+    border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color:#6191A7;
+    background-color: #2e2e2e;
     cursor: pointer;
 }
 
@@ -384,7 +380,7 @@ border-bottom-right-radius: 6%;
 
 .timeline__button--settings,
 .timeline__button--fullscreen {
-    width: 60px;
+    width: 50px;
     text-align: center;
 }
 
@@ -419,7 +415,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--skip-back {
-    margin-right: 8px;
+    margin-right: 10px;
     background-position-x: calc((100%/26) * 2);
     --timeline-bgX: calc((100%/26) * 2);
 }
@@ -445,7 +441,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--skip-forward {
-    margin-left: 8px;
+    margin-left: 10px;
     background-position-x: calc((100%/26) * 3);
     --timeline-bgX: calc((100%/26) * 3);
 }
@@ -545,11 +541,11 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress-hover {
-    background-color:#F0F4F4;
+    background-color: #00436e;
 }
 
 .timeline-progress {
-    background-color: #F0F4F4;
+    background-color: #0072b8;
 }
 
 .timeline-chapters--seen {
@@ -588,7 +584,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-volume__ball {
-    background-color:#9b9b9b;
+    background-color: #9b9b9b;
     border-radius: 10px;
 }
 
@@ -665,7 +661,7 @@ border-bottom-right-radius: 6%;
 .timeline__settings-item:hover .timeline__settings-text,
 .timeline__settings-item:active .timeline__settings-text,
 .focusable.timeline__settings-item:focus .timeline__settings-text {
-    color:#F4F1F0;
+    color: #fff;
 }
 
 .timeline__settings-icon--left {
@@ -718,7 +714,7 @@ border-bottom-right-radius: 6%;
 .footer {
     color: #3d3d3d;
     background-color: #f0f0f0;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footer__poweredby {
@@ -734,7 +730,7 @@ border-bottom-right-radius: 6%;
 }
 
 .footer__link {
-    color: #3d3d3d;
+    color: #717171;
     text-decoration: none;
 }
 
@@ -760,7 +756,6 @@ border-bottom-right-radius: 6%;
 /** 720p **/
 @media screen and (max-width: 2460px) {
     .header__preparedfor {
-        color:#F4F1F0;
         font-size: 14px;
     }
 
@@ -773,10 +768,14 @@ border-bottom-right-radius: 6%;
         font-size: 20px;
     }
 
+    .cta--side {
+        height: 720px;
+    }
+
     .cta__icon {
         margin-bottom: 15px;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .fullscreen .cta__icon {
@@ -784,7 +783,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .player__splash-image {
@@ -798,12 +797,9 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 77px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 66px;
+        width: 65px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -817,9 +813,8 @@ border-bottom-right-radius: 6%;
         height: 30px;
     }
 
-
     .footer {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .social--top .social__icon,
@@ -890,13 +885,17 @@ border-bottom-right-radius: 6%;
 
     .fullscreen .cta--side .cta__label {
         line-height: 40px;
-        font-size:18px;
+        font-size: 18px;
+    }
+
+    .cta--side {
+        height: 540px;
     }
 
     .cta__icon {
         margin-bottom: 10px;
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
 
     .fullscreen .cta__icon {
@@ -904,7 +903,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .player__splash-image {
@@ -940,17 +939,14 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 57px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 51px;
+        width: 50px;
     }
 
     .timeline__button--settings,
     .timeline__button--fullscreen {
-        width: 45px;
+        width: 50px;
     }
 
     .timeline__button--volume {
@@ -1037,6 +1033,9 @@ border-bottom-right-radius: 6%;
         font-size: 16px;
     }
 
+    .cta--side {
+        height: 360px;
+    }
 
     .cta__icon {
         margin-bottom: 6px;
@@ -1049,7 +1048,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .player__splash-image {
@@ -1094,12 +1093,9 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 38px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 34px;
+        width: 30px;
     }
 
     .timeline__button-icon--skip-back {
@@ -1320,7 +1316,7 @@ border-bottom-right-radius: 6%;
 /** Very small mobile devices **/
 @media screen and (max-height: 260px) and (orientation: landscape) {
     .cta__icon {
-        margin-bottom: 3px;
+        margin-bottom: 2px;
     }
 }
 
