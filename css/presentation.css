@@ -318,7 +318,7 @@
 }
 
 .promo__item {
-    background-color: #fff;
+    background-color: #F4F1F0;
 }
 
 .promo--side .promo__image {
@@ -553,7 +553,7 @@
 }
 
 .timeline-contrast .timeline-chapters__label {
-    color: #2e2e2e;
+    color:#F4F1F0;
 }
 
 .timeline-contrast {
@@ -1194,7 +1194,7 @@
     }
 
     .timeline-progress-indicator-ball {
-        background-color: #fff;
+        background-color: #F4F1F0;
         border: 3px solid #0072b8;
         border-radius: 12px;
     }
