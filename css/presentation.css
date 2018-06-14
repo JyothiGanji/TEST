@@ -574,7 +574,7 @@
 }
 
 .timeline-volume__bg {
-    background-color: #717171;
+    background-color: #204fad;
     border-radius: 5px;
 }
 
@@ -591,7 +591,7 @@
 .timeline-volume__ball:hover,
 .timeline-volume__ball:active,
 .focusable.timeline-volume__ball:focus {
-    background-color: #fff;
+    background-color:#204fad;
 }
 
 .timeline__settings-popout,
@@ -1194,7 +1194,7 @@
     }
 
     .timeline-progress-indicator-ball {
-        background-color: #F4F1F0;
+        background-color: #131b89;
         border: 3px solid #0072b8;
         border-radius: 12px;
     }
