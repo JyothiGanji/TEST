@@ -178,7 +178,7 @@
 
 .cta__button {
     color:#bc091e;
-    background-color: #F4F1F0;
+    background-color:#F4F1F0;
     border: 0;
     font-family: Arial;
     font-size: 28px;
@@ -347,22 +347,22 @@
 }
 
 .timeline {
-    color: #F0F1F4;
-    background-color: #F4F1F0;
+    color:#F0F1F4;
+    background-color:#F4F1F0;
     font-size: 20px;
 }
 
 .timeline__cover {
-    background: #00436e;
+    background:#00436e;
 }
 
 .timeline__controls {
-    background-color:  #F4F1F0;
+    background-color:#F4F1F0;
     border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color: #F4F1F0;
+    background-color:#F4F1F0;
     cursor: pointer;
 }
 
