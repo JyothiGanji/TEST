@@ -351,22 +351,22 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color: #fff;
-    background-color:#F0F4F4;
+    color: #004B8F;
+    background-color:#004B8F;
     font-size: 20px;
 }
 
 .timeline__cover {
-    background: #00436e;
+    background:#004B8F;
 }
 
 .timeline__controls {
-    background-color:#F0F4F4;
+    background-color:#004B8F;
     border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color:#F0F4F4;
+    background-color:#004B8F;
     cursor: pointer;
 }
 
